@@ -2,6 +2,24 @@
 
 This is the README for your extension "many-anchors". After writing up a brief description, we recommend including the following sections.
 
+# Todo
+
+- create
+  - a single new anchor
+- read
+  - onload, place all saved anchors. catch edge case if position not exist anymore
+- update
+  - keep track of "last used" anchor (as stack), create a shortcut (and command) for moving the last used index to a new place. reordering? view all?
+- destroy
+  - delete last used (stack), delete all
+
+anchor functionality:
+
+- jump to anchor i with alt+i
+
+* jump to next
+* jump to previous
+
 ## Features
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
